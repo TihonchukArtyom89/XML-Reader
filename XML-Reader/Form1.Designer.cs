@@ -40,6 +40,7 @@ namespace XML_Reader
             this.NameWorker.Name = "NameWorker";
             this.NameWorker.Size = new System.Drawing.Size(380, 407);
             this.NameWorker.TabIndex = 0;
+            this.NameWorker.SelectedIndexChanged += new System.EventHandler(this.NameWorker_SelectedIndexChanged);
             // 
             // WorkerDetails
             // 

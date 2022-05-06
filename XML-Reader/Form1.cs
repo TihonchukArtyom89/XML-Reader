@@ -31,5 +31,11 @@ namespace XML_Reader
                 NameWorker.Items.Add(new Worker(name,age,programmer));
             }
         }
+
+        private void NameWorker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(NameWorker.SelectedIndex!=-1)
+                WorkerDetails.SelectedObject = NameWorker.SelectedItem;
+        }
     }
 }
